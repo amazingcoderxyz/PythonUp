@@ -1,0 +1,882 @@
+2019-09-05 19:15:00,501 [MainThread] [__init__.py:run:465] INFO Running job Every 1 week at 19:15:00 do run_task('java', 0, 10) (last run: [never], next run: 2019-09-05 19:15:00)
+2019-09-05 19:15:00,503 [MainThread] [main.py:run_task:101] INFO -----------开始从BOSS直聘抓取：全国有关java的职位, 取前10页！
+2019-09-05 19:15:00,503 [MainThread] [web_actions.py:__init__:234] INFO BossActions init, account_info={}, device=Nexus 10, user_agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.96 Safari/537.36, headless=True, start_url=https://www.zhipin.com/job_detail/?query=java&city=100010000&industry=&position=
+2019-09-05 19:15:08,803 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第1页
+2019-09-05 19:15:13,540 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fe6fa86d29a5b3531HR42d-0FVU~.html
+2019-09-05 19:15:13,606 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:15:18,890 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第2个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/4e95b4d640b1ecfc1nx50t21FVY~.html
+2019-09-05 19:15:18,952 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:15:25,662 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/6836138e62f744eb1nNz3d67E1M~.html
+2019-09-05 19:15:25,695 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:15:33,834 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第4个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/79f98182575aaed403N73d60EVQ~.html
+2019-09-05 19:15:33,896 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:15:54,689 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/2b30fcacf3cbc34f1Xd-3d-6GVM~.html
+2019-09-05 19:15:54,725 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:16:36,113 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第6个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/b048f3a22e3643441Xdz39-7FVA~.html
+2019-09-05 19:16:36,170 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:17:21,393 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第7个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/be7e4f85bdbf0c251XRy2t67GFE~.html
+2019-09-05 19:17:21,450 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:18:00,833 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a17040b7978b689b1HR80ty6FFs~.html
+2019-09-05 19:18:00,894 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:18:41,633 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7f1b7eb562c441831X1_2dy-EVA~.html
+2019-09-05 19:18:41,689 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:19:30,216 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e62cc5705cab145103d90969GFY~.html
+2019-09-05 19:19:30,356 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:20:13,742 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第11个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/21cb11ec8585d29003V70tq7ElA~.html
+2019-09-05 19:20:13,805 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:20:49,723 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9c53141769359d7d03Fy09W1EFQ~.html
+2019-09-05 19:20:49,789 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:21:24,803 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/728f3782b3cd74cb1nF4292_GVs~.html
+2019-09-05 19:21:24,858 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:22:04,286 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c94c132f43683b331Xdz2tm0E1I~.html
+2019-09-05 19:22:04,340 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:23:03,475 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第15个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c1ad9181efa3b9e703V_39W1FlU~.html
+2019-09-05 19:23:03,535 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:23:35,648 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第16个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/d353a8a7890620cd1HBz2di9FVU~.html
+2019-09-05 19:23:35,683 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:24:17,163 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/450fbfdb9419e0a60X152d66GQ~~.html
+2019-09-05 19:24:17,232 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:25:24,885 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第18个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/144ef5c5030e55971XB639m4F1A~.html
+2019-09-05 19:25:24,947 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:25:57,739 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/b5f747d407a8537803dz2Ny4ElA~.html
+2019-09-05 19:25:57,798 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:26:33,940 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/bd1e39f61d3118be03B92NW9FVM~.html
+2019-09-05 19:26:34,000 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:27:19,281 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ca5fdfa22f7bcf111nF53N67FFQ~.html
+2019-09-05 19:27:19,390 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:27:49,530 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/46c931b0decffe0a1XVy29i5GVU~.html
+2019-09-05 19:27:49,587 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:28:21,004 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e59d95157057fbaf1nN629m6FFc~.html
+2019-09-05 19:28:21,059 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:28:54,556 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ca3ab3d4fe0005341XZ73N-1FVA~.html
+2019-09-05 19:28:54,623 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:29:32,278 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第25个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/6bdd70cf508ae06a1nZ52Nq9Elc~.html
+2019-09-05 19:29:32,314 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:30:10,943 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第26个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/6beda1b1144a791a1XJ929m4GFY~.html
+2019-09-05 19:30:10,971 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:30:51,101 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第27个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f05fa9229b795f2a1XZ839i-EVE~.html
+2019-09-05 19:30:51,167 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:31:35,241 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第28个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/b52b42cf09c1ee4203V_09i9GVA~.html
+2019-09-05 19:31:35,314 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:32:08,096 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第29个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/cf3a42a0ca3e469d1HB50t21GFE~.html
+2019-09-05 19:32:08,152 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:32:50,220 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第30个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/20f0795c4ed52bdb1nJ60tu7FlA~.html
+2019-09-05 19:32:50,295 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:32:52,378 [MainThread] [web_actions.py:search:277] INFO 已获取1页数据, 累计30条
+2019-09-05 19:33:26,547 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/job_detail/?query=java&city=100010000&industry=&position=
+2019-09-05 19:33:26,548 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 19:33:56,401 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 19:34:43,000 [MainThread] [web_actions.py:search:297] INFO 翻到第2页, url=https://www.zhipin.com/c100010000/?query=java&page=2&ka=page-next
+2019-09-05 19:34:43,000 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第2页
+2019-09-05 19:35:10,403 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/b366bfce983521c81XVz0tW7FFs~.html
+2019-09-05 19:35:10,430 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:35:52,596 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第2个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/3c1d83348a1778821HF92ty0FlM~.html
+2019-09-05 19:35:52,645 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:36:34,767 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/da464a903281f5aa1nZ_3Nq1ElA~.html
+2019-09-05 19:36:34,822 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:37:11,202 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第4个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fa0ab0cd6073213f1XNz3d-6FlM~.html
+2019-09-05 19:37:11,273 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:37:51,016 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ba107023a6da31401nN_0tu6F1s~.html
+2019-09-05 19:37:51,067 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:38:32,460 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/348df674cee00bb503dz2dS5EVY~.html
+2019-09-05 19:38:32,517 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:39:07,749 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第7个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1928f6a35f8622861XF40t25E1o~.html
+2019-09-05 19:39:07,810 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:39:39,158 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e61777ec1a6102531nx_39S-FVM~.html
+2019-09-05 19:39:39,214 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:40:47,670 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第9个工作职位详情,　职位标题：java高级, 详情面URL=https://www.zhipin.com/job_detail/1d84b95fbb269be91XR429m1F1A~.html
+2019-09-05 19:40:47,703 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:41:31,976 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1c6629b1766ab0e81XBz2ty9Flo~.html
+2019-09-05 19:41:32,037 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:42:08,059 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第11个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0c01665e5af262141HB_09q4FVM~.html
+2019-09-05 19:42:08,117 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:42:40,109 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f0774de5c3ea0a2d03B93NS8E1I~.html
+2019-09-05 19:42:40,169 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:43:17,543 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7d43caf9d0e84b7503d-39m5EFY~.html
+2019-09-05 19:43:17,600 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:43:56,787 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/794f827c726991dd0nR739S_GA~~.html
+2019-09-05 19:43:56,845 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:44:39,399 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第15个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9e9fe03004da16b31XF92tS-Fls~.html
+2019-09-05 19:44:39,434 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:45:10,801 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第16个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7a65427404c95d201nV92tu7E1s~.html
+2019-09-05 19:45:10,862 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:45:43,228 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/32f7bf7f24bd27451XRy2tm7E1c~.html
+2019-09-05 19:45:43,286 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:46:25,784 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第18个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0e356cdf183e792503R80ti4FVM~.html
+2019-09-05 19:46:25,843 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:47:01,516 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第19个工作职位详情,　职位标题：Java developer, 详情面URL=https://www.zhipin.com/job_detail/d1147c73e97eb4dd1HZ929-1FVA~.html
+2019-09-05 19:47:01,588 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:47:39,070 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/abdbd8932438dbd303F83N61EVU~.html
+2019-09-05 19:47:39,131 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:48:21,108 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/765fd490b066800703xy2N-8EA~~.html
+2019-09-05 19:48:21,164 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:48:58,583 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9cb13903115f09411nd93tS9GVY~.html
+2019-09-05 19:48:58,637 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:49:32,062 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/81e6af78a887b1a11nZz2ti-EVI~.html
+2019-09-05 19:49:32,122 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:50:07,376 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/b544b639dcacf6c003Zz3tu_E1I~.html
+2019-09-05 19:50:07,405 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:50:46,439 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第25个工作职位详情,　职位标题：对日Java, 详情面URL=https://www.zhipin.com/job_detail/10aea9b3a324e72703B80t-4F1I~.html
+2019-09-05 19:50:46,479 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:51:26,207 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第26个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a7815e33f220b7cd1XR83N67EVI~.html
+2019-09-05 19:51:26,284 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:52:01,636 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第27个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/26542fe92c5b96581HB53Ni1F1Y~.html
+2019-09-05 19:52:01,666 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:52:40,975 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第28个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/456de357e7c94bb61nB53NS0FlQ~.html
+2019-09-05 19:52:41,031 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:53:20,337 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第29个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0afe6bac159f210b1Hd-3d69ElQ~.html
+2019-09-05 19:53:20,364 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:53:59,450 [MainThread] [web_actions.py:search:265] INFO 获取第2页中第30个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/2c2495a1c760ed931XRy2Ny0EVU~.html
+2019-09-05 19:53:59,513 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:54:01,213 [MainThread] [web_actions.py:search:277] INFO 已获取2页数据, 累计60条
+2019-09-05 19:54:41,318 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/c100010000/?query=java&page=2&ka=page-next
+2019-09-05 19:54:41,318 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 19:54:50,770 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 19:55:27,894 [MainThread] [web_actions.py:search:297] INFO 翻到第3页, url=https://www.zhipin.com/c100010000/?query=java&page=3&ka=page-next
+2019-09-05 19:55:27,895 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第3页
+2019-09-05 19:56:06,553 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/65e9c83578fe6a111XR-2tS7FFM~.html
+2019-09-05 19:56:06,614 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:56:45,639 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第2个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/898bb1cffc6ccbe91n1z3969FVU~.html
+2019-09-05 19:56:45,685 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:57:23,580 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fe8050fd951371c21n1909u4FVI~.html
+2019-09-05 19:57:23,638 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:58:01,488 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第4个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/08683e8553ca140303Bz39m-EVo~.html
+2019-09-05 19:58:01,552 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:58:36,516 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5edef0ef88bdac851nx53tW1GVQ~.html
+2019-09-05 19:58:36,577 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:59:16,628 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a6757cb83cd07bbb1nN8292_E1o~.html
+2019-09-05 19:59:16,679 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 19:59:55,904 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第7个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fcbd55bf2ee3152a03Z53dm1FVE~.html
+2019-09-05 19:59:55,959 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:00:36,782 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f6d39afabacce28003F93dq1F1M~.html
+2019-09-05 20:00:36,843 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:01:14,106 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7289b196a6f2c9be1XJ43tS6E1A~.html
+2019-09-05 20:01:14,167 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:01:53,484 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/90dd864818cbbcfb1nF-2NW5GFA~.html
+2019-09-05 20:01:53,544 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:02:31,495 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第11个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/26f491d28f52210a1HF90ti4FFM~.html
+2019-09-05 20:02:31,545 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:03:16,371 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第12个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/e93f5487ef27e0e01XR93N65EFo~.html
+2019-09-05 20:03:16,404 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:03:55,832 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/8be70087fe31e4a91Xxy29-6EFE~.html
+2019-09-05 20:03:55,897 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:04:33,542 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/636b5ef6e9c6347c03B439S8F1I~.html
+2019-09-05 20:04:33,596 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:05:12,109 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第15个工作职位详情,　职位标题：Java工程师, 详情面URL=https://www.zhipin.com/job_detail/b477113d74cdd09b1nF53Ny4GFc~.html
+2019-09-05 20:05:12,165 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:06:16,860 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第16个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c1a585cb41c2766c1XN709q1ElA~.html
+2019-09-05 20:06:16,915 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:07:29,088 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/4fe7780db23a705d1XZ40966EVQ~.html
+2019-09-05 20:07:29,143 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:08:10,349 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第18个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/c7e4ca99a4344a4c03B43Ny1FlY~.html
+2019-09-05 20:08:10,384 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:08:51,676 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0517e15d0a6e7c7f03N70t25GFQ~.html
+2019-09-05 20:08:51,706 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:10:01,623 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第20个工作职位详情,　职位标题：对日Java, 详情面URL=https://www.zhipin.com/job_detail/ce84b7838665ed2a1HNy3tu9GFM~.html
+2019-09-05 20:10:01,662 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:10:31,798 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/792f9ee3501cc6151HF42NW-Els~.html
+2019-09-05 20:10:31,852 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:11:06,611 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第22个工作职位详情,　职位标题：Java开发, 详情面URL=https://www.zhipin.com/job_detail/7a5e06d311f3f76503N73dm6Flo~.html
+2019-09-05 20:11:06,665 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:11:42,704 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ddb01a40702bc2a51HV43tS7Flc~.html
+2019-09-05 20:11:42,765 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:12:23,327 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第24个工作职位详情,　职位标题：Java SE, 详情面URL=https://www.zhipin.com/job_detail/54517cb0ca44a1791nd92d60E1Q~.html
+2019-09-05 20:12:23,388 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:12:55,295 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第25个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a626f859ef85124d1XF42tm6FlY~.html
+2019-09-05 20:12:55,322 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:13:25,764 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第26个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ac07f0aa7e582e1103Z60tm_FVs~.html
+2019-09-05 20:13:25,820 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:13:56,209 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第27个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/f0fed6d645115e091XZ539i9GFc~.html
+2019-09-05 20:13:56,273 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:14:28,076 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第28个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/defcf15b9a6c4a231nB_3dS0FlY~.html
+2019-09-05 20:14:28,133 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:15:09,008 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第29个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5511900a15097ebf1Xdz3NS6FlE~.html
+2019-09-05 20:15:09,063 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:15:49,004 [MainThread] [web_actions.py:search:265] INFO 获取第3页中第30个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/78e0683a478e6f9303x73N-9EQ~~.html
+2019-09-05 20:15:49,062 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:15:50,541 [MainThread] [web_actions.py:search:277] INFO 已获取3页数据, 累计90条
+2019-09-05 20:16:32,072 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/c100010000/?query=java&page=3&ka=page-next
+2019-09-05 20:16:32,072 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 20:17:04,416 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 20:18:20,435 [MainThread] [web_actions.py:search:297] INFO 翻到第4页, url=https://www.zhipin.com/c100010000/?query=java&page=4&ka=page-next
+2019-09-05 20:18:20,435 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第4页
+2019-09-05 20:18:54,786 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第1个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/698683bfabab826c03d40t29F1U~.html
+2019-09-05 20:18:54,843 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:19:39,852 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第2个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/bf86c5756fa1983b03N53Nq8GFU~.html
+2019-09-05 20:19:39,904 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:20:16,193 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第3个工作职位详情,　职位标题：中高级Java, 详情面URL=https://www.zhipin.com/job_detail/08db6c40e32105711XZ609S6ElQ~.html
+2019-09-05 20:20:16,266 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:20:58,407 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第4个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5e89f75a69af5a4a03Jz2dq8GVs~.html
+2019-09-05 20:20:58,435 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:21:36,900 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/bb7f7ad961aeb8ee03F62dS1ElA~.html
+2019-09-05 20:21:36,957 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:22:21,336 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7fff6d1979bbc3bc03Ry2tS-E1A~.html
+2019-09-05 20:22:21,396 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:23:31,236 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第7个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/4c668e7136019fac03Ry2tq9FFE~.html
+2019-09-05 20:23:31,300 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:24:04,402 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1cc3a146241f15021XFz39u_GFE~.html
+2019-09-05 20:24:04,430 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:24:48,984 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a7411add330374a31nZ92tm8GFY~.html
+2019-09-05 20:24:49,048 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:25:20,003 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9d7e0d399ec0c4a01nd83tS-E1I~.html
+2019-09-05 20:25:20,032 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:26:01,823 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第11个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0073ef8ddcb670c91Xd_3du8Flo~.html
+2019-09-05 20:26:01,878 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:26:46,200 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1ef9759a7bbf51061XF_0t-_GVU~.html
+2019-09-05 20:26:46,268 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:27:24,903 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7219856b9e01e8751HJ60928FVI~.html
+2019-09-05 20:27:24,968 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:27:52,733 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ef622de9d55a5cdc1nxz3tW6E1o~.html
+2019-09-05 20:27:52,790 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:28:28,828 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第15个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fd87649560767f2b1HZ_3tS_GFA~.html
+2019-09-05 20:28:28,885 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:29:05,679 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第16个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/5838d0d2c8323b9703V_3ti7F1M~.html
+2019-09-05 20:29:05,711 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:29:52,377 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/08e3624a24a676e41nF40tm5FFU~.html
+2019-09-05 20:29:52,410 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:30:30,218 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第18个工作职位详情,　职位标题：java架构师, 详情面URL=https://www.zhipin.com/job_detail/b29c85a708e23da203Z829S7FlY~.html
+2019-09-05 20:30:30,260 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:31:08,515 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0f2d52233aed605b1nZ629W0EFI~.html
+2019-09-05 20:31:08,577 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:31:43,426 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第20个工作职位详情,　职位标题：Java工程师, 详情面URL=https://www.zhipin.com/job_detail/8e5b74ee0220861603Zz0tu6E1E~.html
+2019-09-05 20:31:43,462 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:32:26,152 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/17bace78ae1f41c11nd93Ny-FVs~.html
+2019-09-05 20:32:26,219 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:33:11,723 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0282a0860dbad3341XJ42dS6FlY~.html
+2019-09-05 20:33:11,789 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:33:52,488 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第23个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/259b6baf0f7271111HR-2dS1EFA~.html
+2019-09-05 20:33:52,541 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:34:50,593 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/4f8100aa04d149891nN92tS9Fls~.html
+2019-09-05 20:34:50,652 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:35:30,595 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第25个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1b8ab1b746cc0aab0nd539i1Eg~~.html
+2019-09-05 20:35:30,639 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:36:10,695 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第26个工作职位详情,　职位标题：Java engineer, 详情面URL=https://www.zhipin.com/job_detail/9e8856fa388c85061XR_09S1Flo~.html
+2019-09-05 20:36:10,760 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:36:53,071 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第27个工作职位详情,　职位标题：Java(实习), 详情面URL=https://www.zhipin.com/job_detail/c2cfb9039dd85d081XZ43du-F1Y~.html
+2019-09-05 20:36:53,131 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:37:24,092 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第28个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/7331c528ba2cca9203J_2t-8GVE~.html
+2019-09-05 20:37:24,158 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:38:03,916 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第29个工作职位详情,　职位标题：对日 Java, 详情面URL=https://www.zhipin.com/job_detail/13951e9f1293b10803d50tS9GVs~.html
+2019-09-05 20:38:03,975 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:38:39,285 [MainThread] [web_actions.py:search:265] INFO 获取第4页中第30个工作职位详情,　职位标题：Java developer, 详情面URL=https://www.zhipin.com/job_detail/0aa77bd46e2ac47f1XB-2ti4F1U~.html
+2019-09-05 20:38:39,384 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:38:41,243 [MainThread] [web_actions.py:search:277] INFO 已获取4页数据, 累计120条
+2019-09-05 20:39:25,229 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/c100010000/?query=java&page=4&ka=page-next
+2019-09-05 20:39:25,229 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 20:39:55,421 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 20:40:42,599 [MainThread] [web_actions.py:search:297] INFO 翻到第5页, url=https://www.zhipin.com/c100010000/?query=java&page=5&ka=page-next
+2019-09-05 20:40:42,599 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第5页
+2019-09-05 20:41:24,908 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a290547b1f4c2d6e1HR82Nu9E1Y~.html
+2019-09-05 20:41:24,978 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:41:58,623 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第2个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1b09ac89228f7d761nN-0t--EFs~.html
+2019-09-05 20:41:58,701 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:42:32,029 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/3ba33c1c56a867a41nZ939m_EVQ~.html
+2019-09-05 20:42:32,062 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:43:08,943 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第4个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/3ecf82c95668b12403R73t-4FVA~.html
+2019-09-05 20:43:09,006 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:43:49,946 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/740d5b848ec862aa1Xd429W5EFQ~.html
+2019-09-05 20:43:49,998 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:44:30,439 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a01b81896f0ed7151Hx529i9E1I~.html
+2019-09-05 20:44:30,467 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:45:10,859 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第7个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/d955275b2b0871a31HJ63Nu_FFs~.html
+2019-09-05 20:45:10,920 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:45:52,048 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第8个工作职位详情,　职位标题：高级Java工程师, 详情面URL=https://www.zhipin.com/job_detail/76ccca619e1e30371HNz2d67FVU~.html
+2019-09-05 20:45:52,102 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:46:31,457 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/684299c947f4c78303J42tu5E1M~.html
+2019-09-05 20:46:31,521 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:47:01,708 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1d67f4311f5a323203J_3tW9F1Q~.html
+2019-09-05 20:47:01,777 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:47:37,187 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第11个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a37aa5586751460e1nN43N61FlQ~.html
+2019-09-05 20:47:37,237 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:48:17,314 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/3fe7971dbfd1867603J_2du4GFo~.html
+2019-09-05 20:48:17,425 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:48:50,960 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第13个工作职位详情,　职位标题：java工程师, 详情面URL=https://www.zhipin.com/job_detail/6849f131aac620241ndz39y-EVM~.html
+2019-09-05 20:48:51,017 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:49:30,918 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/519d66124b66b9a41XVz3dy_FFc~.html
+2019-09-05 20:49:30,975 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:50:15,512 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第15个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/2fb89a71048088811nx92d25ElI~.html
+2019-09-05 20:50:15,574 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:51:28,526 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第16个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/20f6745c041f988c1Hd-29q8EFE~.html
+2019-09-05 20:51:28,582 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:52:00,909 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1c0a92bab4a578cf03d60ty7FVY~.html
+2019-09-05 20:52:00,968 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:52:44,774 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第18个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/f41c9f77420f69571Xx9396_E1M~.html
+2019-09-05 20:52:44,831 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:53:32,240 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/62687d9215d77ea003J_3Ni1EVs~.html
+2019-09-05 20:53:32,307 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:54:11,500 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/8309818e1dec262a1XV82t60EFI~.html
+2019-09-05 20:54:11,651 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:54:48,237 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/edf8dc99452ed30a1XJ53Nu4ElY~.html
+2019-09-05 20:54:48,327 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:55:31,877 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c9b528953be076781XZ43du7Flc~.html
+2019-09-05 20:55:31,931 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:56:18,116 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/bcf97a42f31ceaec1XZ609S4F1M~.html
+2019-09-05 20:56:18,177 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:57:00,459 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/22f5286b4c94cfff03N539-9F1Q~.html
+2019-09-05 20:57:00,512 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:57:41,493 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第25个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/bc1d19d4b515df511HN80tW0GVU~.html
+2019-09-05 20:57:41,532 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:58:24,589 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第26个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e730f32432216e791nJy39q1FFs~.html
+2019-09-05 20:58:24,653 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:59:05,931 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第27个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/de9e0556bb7585b11XF53Nm1FFY~.html
+2019-09-05 20:59:05,986 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 20:59:42,548 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第28个工作职位详情,　职位标题：高级Java工程师, 详情面URL=https://www.zhipin.com/job_detail/072b0f5c1d1e0c391nF82N-8GFY~.html
+2019-09-05 20:59:42,623 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:00:23,550 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第29个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f1c70e4e0ea32d361nJy2tq9ElU~.html
+2019-09-05 21:00:23,610 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:01:06,183 [MainThread] [web_actions.py:search:265] INFO 获取第5页中第30个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/143410e54cf3470b1HB80ti-E1A~.html
+2019-09-05 21:01:06,242 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:01:07,850 [MainThread] [web_actions.py:search:277] INFO 已获取5页数据, 累计150条
+2019-09-05 21:01:49,413 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/c100010000/?query=java&page=5&ka=page-next
+2019-09-05 21:01:49,413 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 21:02:20,393 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 21:03:02,329 [MainThread] [web_actions.py:search:297] INFO 翻到第6页, url=https://www.zhipin.com/c100010000/?query=java&page=6&ka=page-next
+2019-09-05 21:03:02,329 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第6页
+2019-09-05 21:03:38,080 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第1个工作职位详情,　职位标题：java工程师, 详情面URL=https://www.zhipin.com/job_detail/fbdea4a21fd482ec03d509y9FFY~.html
+2019-09-05 21:03:38,129 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:04:23,510 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第2个工作职位详情,　职位标题：JAVA开发, 详情面URL=https://www.zhipin.com/job_detail/a67c56df0433c29903V-2Ni6FVI~.html
+2019-09-05 21:04:23,575 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:05:31,419 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第3个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/f257cf769b9090f803d53t67EVc~.html
+2019-09-05 21:05:31,446 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:06:12,197 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第4个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/b32fc60118bf61e403V629i7E1Y~.html
+2019-09-05 21:06:12,269 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:06:56,137 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c10780010011fc4c1XR93du8GFY~.html
+2019-09-05 21:06:56,198 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:07:37,678 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第6个工作职位详情,　职位标题：Java（南宁）, 详情面URL=https://www.zhipin.com/job_detail/59f4a585a0bfc88003Z92Nm0ElU~.html
+2019-09-05 21:07:37,739 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:08:19,142 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第7个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c6918196fc6fb4741Xd_3d-_F1o~.html
+2019-09-05 21:08:19,203 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:08:48,687 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/dd97503905028b9703d829S5GFs~.html
+2019-09-05 21:08:48,723 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:09:30,779 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f1e316bf3f8d851f1Xd63t25GFI~.html
+2019-09-05 21:09:30,835 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:10:16,891 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/2156020ad7ca4cc91nB-39W7Fls~.html
+2019-09-05 21:10:16,945 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:10:48,935 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第11个工作职位详情,　职位标题：Java工程师（K11）, 详情面URL=https://www.zhipin.com/job_detail/c64a4e1f53f5f53703Z92Nm0E1U~.html
+2019-09-05 21:10:48,990 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:11:29,634 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/aab7a7925f9580101n160969EVU~.html
+2019-09-05 21:11:29,670 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:12:13,109 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第13个工作职位详情,　职位标题：Java开发, 详情面URL=https://www.zhipin.com/job_detail/457f5a8d1981327703B53d61EFQ~.html
+2019-09-05 21:12:13,171 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:12:54,622 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第14个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/0dfb17fc173683a803J82dy7E1E~.html
+2019-09-05 21:12:54,669 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:13:28,989 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第15个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/376cd78edd1b8cc01HRz2Nu0GFY~.html
+2019-09-05 21:13:29,048 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:14:05,906 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第16个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/0a71c2be551d545c03Z409-1F1A~.html
+2019-09-05 21:14:05,975 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:14:47,301 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/dad2ea05b8fc1c7c1XV93d28GFo~.html
+2019-09-05 21:14:47,405 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:15:27,503 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第18个工作职位详情,　职位标题：高级Java, 详情面URL=https://www.zhipin.com/job_detail/83f33b445601a8b003B53tu9EVE~.html
+2019-09-05 21:15:27,557 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:16:11,906 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/790b7af9154cdebe03J-3NS1ElU~.html
+2019-09-05 21:16:11,966 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:16:54,422 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/b7863154a38c736e1Hd_3N6-FVQ~.html
+2019-09-05 21:16:54,478 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:17:33,828 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第21个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/615de29b68e59ca61X152N25FVM~.html
+2019-09-05 21:17:33,883 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:18:06,229 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ad714a025a48d98b1XV73d60GVs~.html
+2019-09-05 21:18:06,379 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:18:48,623 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第23个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/bc40c1196cf3120c03R82ty5EFU~.html
+2019-09-05 21:18:48,679 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:19:29,474 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/3707b88daaeeb40e1XR80ty5FlU~.html
+2019-09-05 21:19:29,541 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:20:12,208 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第25个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/b9fe8a92f6328f9f1XZ_39u0F1M~.html
+2019-09-05 21:20:12,300 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:21:21,664 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第26个工作职位详情,　职位标题：JAVA（dubbo）, 详情面URL=https://www.zhipin.com/job_detail/38a2d39d35e7054103J73N64FlQ~.html
+2019-09-05 21:21:21,720 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:22:08,602 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第27个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f17e1ec6226bf92c1Hx-3d61GFY~.html
+2019-09-05 21:22:08,659 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:22:50,190 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第28个工作职位详情,　职位标题：java工程师, 详情面URL=https://www.zhipin.com/job_detail/6fa7db84b117383e03N53ty5F1c~.html
+2019-09-05 21:22:50,268 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:23:22,568 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第29个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a19621209b765cae1nxy3tS8EVY~.html
+2019-09-05 21:23:22,628 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:23:56,312 [MainThread] [web_actions.py:search:265] INFO 获取第6页中第30个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/77e608aac99692c703Zz0t24FFU~.html
+2019-09-05 21:23:56,342 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:23:58,927 [MainThread] [web_actions.py:search:277] INFO 已获取6页数据, 累计180条
+2019-09-05 21:24:41,663 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/c100010000/?query=java&page=6&ka=page-next
+2019-09-05 21:24:41,663 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 21:25:09,387 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 21:25:45,885 [MainThread] [web_actions.py:search:297] INFO 翻到第7页, url=https://www.zhipin.com/c100010000/?query=java&page=7&ka=page-next
+2019-09-05 21:25:45,885 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第7页
+2019-09-05 21:26:21,346 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/da49d32d3b2563f103F53921F1Y~.html
+2019-09-05 21:26:21,390 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:26:50,649 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第2个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ddeef68a84650dd71XF629y9FVM~.html
+2019-09-05 21:26:50,744 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:28:00,506 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/d592f477c5bd22c003182d69EQ~~.html
+2019-09-05 21:28:00,566 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:28:38,038 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第4个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/6536d90e5a5b1ee003J62tq4E1Y~.html
+2019-09-05 21:28:38,094 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:29:19,885 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/51aa2d7ed256db8d1nx52tq7EVI~.html
+2019-09-05 21:29:19,948 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:29:52,316 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/2504e21e6ab610b31HZy3d67FlQ~.html
+2019-09-05 21:29:52,370 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:30:52,741 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第7个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/196d21220011e8ac03Z72t6_FlM~.html
+2019-09-05 21:30:52,801 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:31:36,495 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/41be0c016ad036871nB83dW5FVQ~.html
+2019-09-05 21:31:36,548 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:32:20,477 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ab751ea4cb3974c10XJ52NW4Fg~~.html
+2019-09-05 21:32:20,532 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:32:50,760 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第10个工作职位详情,　职位标题：java （贷款）, 详情面URL=https://www.zhipin.com/job_detail/6d6e4d6c1290594203Vz29m5FFE~.html
+2019-09-05 21:32:50,820 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:33:25,138 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第11个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9ddd1b86df9defd803J_3du1FFQ~.html
+2019-09-05 21:33:25,201 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:34:35,189 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/028cafe8944b2ff41HZz3dy7F1M~.html
+2019-09-05 21:34:35,258 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:35:05,712 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/28bf76abe9e58a161Xx53dW7F1A~.html
+2019-09-05 21:35:05,773 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:35:47,000 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/83432adc89a906ca03Jz2960FFU~.html
+2019-09-05 21:35:47,060 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:36:28,457 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第15个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/41fe56aec8e37f0403J82tW9EVQ~.html
+2019-09-05 21:36:28,524 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:37:00,765 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第16个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7f1aaef3e84769f903F93dW6Elo~.html
+2019-09-05 21:37:00,822 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:37:40,041 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/877b63bef5dd20841nN63tq4FFA~.html
+2019-09-05 21:37:40,101 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:38:23,068 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第18个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/883b72cc08beec3b03Zz39W8E1s~.html
+2019-09-05 21:38:23,128 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:39:36,590 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0ed7d8979057880e1n190966GVc~.html
+2019-09-05 21:39:36,617 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:40:19,763 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/bb47b6a5433eeea51nN_2tm-.html
+2019-09-05 21:40:19,822 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:41:00,441 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第21个工作职位详情,　职位标题：高级JAVA, 详情面URL=https://www.zhipin.com/job_detail/cfc3f7d53262991b1XZz2d6-E1c~.html
+2019-09-05 21:41:00,491 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:41:42,379 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/67b8c8361781c59c1XJ429i7F1M~.html
+2019-09-05 21:41:42,412 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:42:18,752 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e8475dd58a4edab81nF-3Nq7EVU~.html
+2019-09-05 21:42:18,809 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:42:58,539 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第24个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/7f39a95d746b024603B_09S8FVs~.html
+2019-09-05 21:42:58,599 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:43:41,533 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第25个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/2b9e75452ac488981HR509m5EFI~.html
+2019-09-05 21:43:41,590 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:44:11,094 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第26个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/692575133efb4f820nJ-29W-EQ~~.html
+2019-09-05 21:44:11,157 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:44:48,956 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第27个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fb7af5a885931fca1HZz3d-9FFQ~.html
+2019-09-05 21:44:49,012 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:45:20,307 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第28个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7314dfb4d7c22ea31HZ82Nq4GVA~.html
+2019-09-05 21:45:20,409 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:46:03,944 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第29个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fb8f83ad871f404603B70tu0GVI~.html
+2019-09-05 21:46:04,005 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:46:43,410 [MainThread] [web_actions.py:search:265] INFO 获取第7页中第30个工作职位详情,　职位标题：JAVA开发, 详情面URL=https://www.zhipin.com/job_detail/8fc85153218fa5621HV-2tW_EVI~.html
+2019-09-05 21:46:43,466 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:46:44,692 [MainThread] [web_actions.py:search:277] INFO 已获取7页数据, 累计210条
+2019-09-05 21:47:21,965 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/c100010000/?query=java&page=7&ka=page-next
+2019-09-05 21:47:21,966 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 21:47:42,393 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 21:48:32,719 [MainThread] [web_actions.py:search:297] INFO 翻到第8页, url=https://www.zhipin.com/c100010000/?query=java&page=8&ka=page-next
+2019-09-05 21:48:32,719 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第8页
+2019-09-05 21:49:11,423 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/bead5486ab507e7003N62ty-FlM~.html
+2019-09-05 21:49:11,451 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:49:41,644 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第2个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/eeca7a37290cde501n150t25EVY~.html
+2019-09-05 21:49:41,679 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:50:14,219 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/61e7198d55a89a341nJ-29q8EFc~.html
+2019-09-05 21:50:14,291 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:50:53,605 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第4个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/6218fb69cf8161521XRz09i7EVc~.html
+2019-09-05 21:50:53,662 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:51:24,838 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/953494ac10929d711HZ939u1FVE~.html
+2019-09-05 21:51:24,896 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:52:03,378 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5d92cf4ab742d7c71Hd72t6-EVU~.html
+2019-09-05 21:52:03,438 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:52:45,556 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第7个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/6b41452eccb668a11HJ_09W_FlU~.html
+2019-09-05 21:52:45,615 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:53:13,617 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ae3c566db6e55de803B9392-F1E~.html
+2019-09-05 21:53:13,673 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:53:57,668 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/bd8968039069f4e003N63t25EVE~.html
+2019-09-05 21:53:57,697 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:54:40,427 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a3feaabc7b2c94771nRy3dm6EFI~.html
+2019-09-05 21:54:40,491 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:55:23,388 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第11个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/4c0042e9a5b4bc2303R92ti9GVI~.html
+2019-09-05 21:55:23,444 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:56:20,431 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e304f78ac70efeda1nJy3du6GVA~.html
+2019-09-05 21:56:20,486 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:57:05,203 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第13个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/89918022508ca37a03Ry2967Flc~.html
+2019-09-05 21:57:05,270 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:57:48,112 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/084cda20440d3c7a1X1409i5Elo~.html
+2019-09-05 21:57:48,166 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:58:28,406 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第15个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/29750342f26d81241XR809W0EVc~.html
+2019-09-05 21:58:28,436 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:59:02,497 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第16个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/63c46f4c8b94d5701nZ409i1FFI~.html
+2019-09-05 21:59:02,533 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 21:59:42,026 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第17个工作职位详情,　职位标题：Java工程师（番禺区）, 详情面URL=https://www.zhipin.com/job_detail/41bfb7bc27b7b0ce03Z92Nm0ElA~.html
+2019-09-05 21:59:42,081 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:00:12,718 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第18个工作职位详情,　职位标题：Java Lead, 详情面URL=https://www.zhipin.com/job_detail/fbb85938ad85321603J-29m-EFM~.html
+2019-09-05 22:00:12,777 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:00:53,567 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9a6184304ef0641f1nN8292_EFA~.html
+2019-09-05 22:00:53,625 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:01:31,908 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/61eb08a9397a563e1nJ70929E1c~.html
+2019-09-05 22:01:31,966 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:02:11,680 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5f3d75483b1cc67b1Xd_3Nm9GFo~.html
+2019-09-05 22:02:11,735 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:02:51,864 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5234ee75af363c401HN70966EFs~.html
+2019-09-05 22:02:51,920 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:03:34,419 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第23个工作职位详情,　职位标题：Senior Java Developer, 详情面URL=https://www.zhipin.com/job_detail/9bb5223d53a892cb1Xd539u9FVo~.html
+2019-09-05 22:03:34,473 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:04:13,708 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/162c01a8013bcea91XBy0920EFU~.html
+2019-09-05 22:04:13,767 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:05:20,235 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第25个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0f371fc885eb96831XJ82tW9EVM~.html
+2019-09-05 22:05:20,332 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:06:55,705 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第26个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/0f2edd74e19b91dc1H180t-6FFY~.html
+2019-09-05 22:06:55,760 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:07:32,002 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第27个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a10ec0c1b33c249b03F62tS6E1A~.html
+2019-09-05 22:07:32,056 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:08:08,049 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第28个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ad3c3963eb774d871HB709W0EFo~.html
+2019-09-05 22:08:08,108 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:08:39,640 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第29个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/28e08b5636f2c37503R-396-FlA~.html
+2019-09-05 22:08:39,701 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:09:19,234 [MainThread] [web_actions.py:search:265] INFO 获取第8页中第30个工作职位详情,　职位标题：Java工程师, 详情面URL=https://www.zhipin.com/job_detail/52933fc2c29bc93a03Z92Nm0EVQ~.html
+2019-09-05 22:09:19,302 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:09:21,434 [MainThread] [web_actions.py:search:277] INFO 已获取8页数据, 累计240条
+2019-09-05 22:10:03,116 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/c100010000/?query=java&page=8&ka=page-next
+2019-09-05 22:10:03,116 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 22:10:39,398 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 22:11:21,311 [MainThread] [web_actions.py:search:297] INFO 翻到第9页, url=https://www.zhipin.com/c100010000/?query=java&page=9&ka=page-next
+2019-09-05 22:11:21,311 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第9页
+2019-09-05 22:11:59,719 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f740e44854517bc41XJy3tS0Fls~.html
+2019-09-05 22:11:59,776 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:12:32,386 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第2个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/7c41a5260928ae1103J52d-_EVA~.html
+2019-09-05 22:12:32,440 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:13:05,181 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a4fc664676d4070e03V-3dW1Elc~.html
+2019-09-05 22:13:05,237 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:13:46,935 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第4个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/196d21220011e8ac03Z72t6_FlM~.html
+2019-09-05 22:13:46,993 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:14:29,222 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第5个工作职位详情,　职位标题：java[7684], 详情面URL=https://www.zhipin.com/job_detail/f15b6492ced2c17b03d639W1ElI~.html
+2019-09-05 22:14:29,287 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:15:02,682 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9a32a7420602bae403Fz09q4GFA~.html
+2019-09-05 22:15:02,711 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:15:43,875 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第7个工作职位详情,　职位标题：Java(实习), 详情面URL=https://www.zhipin.com/job_detail/e91878b2b18bee8f1nx73dW5EFE~.html
+2019-09-05 22:15:43,937 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:16:16,504 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/4954dac64f8275a103V42d64F1Y~.html
+2019-09-05 22:16:16,559 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:16:51,518 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/8309818e1dec262a1XV82t60EFI~.html
+2019-09-05 22:16:51,553 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:17:27,012 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9654013ab3c423be1HF72d25GFA~.html
+2019-09-05 22:17:27,069 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:18:02,508 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第11个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5d51b3d15cc12d5a1HF53dm7GFs~.html
+2019-09-05 22:18:02,568 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:18:39,303 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/b5f747d407a8537803dz2Ny4ElA~.html
+2019-09-05 22:18:39,342 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:19:19,823 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9d51c96c8d5445db1nVz2Ny-E1A~.html
+2019-09-05 22:19:19,880 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:20:02,628 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/092f853dc01c81f81XN82t29FVo~.html
+2019-09-05 22:20:02,671 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:20:35,149 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第15个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/d748cad675f0a51f1XR53dS-E1M~.html
+2019-09-05 22:20:35,217 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:21:18,197 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第16个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e9686ba3952181401XVz2dq7EFU~.html
+2019-09-05 22:21:18,274 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:21:46,505 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5966a65fb6b8f51f1Hd93ti0EFQ~.html
+2019-09-05 22:21:46,557 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:22:24,668 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第18个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/2b30fcacf3cbc34f1Xd-3d-6GVM~.html
+2019-09-05 22:22:24,715 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:22:54,780 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a7815e33f220b7cd1XR83N67EVI~.html
+2019-09-05 22:22:54,840 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:23:23,688 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1f9da9d94c54a43c1XV53dW9EFY~.html
+2019-09-05 22:23:23,724 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:23:54,550 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/93f7006245231f2003F72NS0F1o~.html
+2019-09-05 22:23:54,608 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:24:26,630 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f17e1ec6226bf92c1Hx-3d61GFY~.html
+2019-09-05 22:24:26,673 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:25:03,119 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/2282569c667328941HV53d-1EVY~.html
+2019-09-05 22:25:03,184 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:25:31,795 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5e531e5221e97e8d1HF-2t64FlQ~.html
+2019-09-05 22:25:31,851 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:26:00,168 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第25个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ab1350aadde90f051X1-2N21FFE~.html
+2019-09-05 22:26:00,229 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:26:29,328 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第26个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/972855a4fbc13b7f1XR53Nq_EFE~.html
+2019-09-05 22:26:29,431 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:27:05,180 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第27个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0ed7d8979057880e1n190966GVc~.html
+2019-09-05 22:27:05,237 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:27:38,936 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第28个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9be2a89d30ef5c5b1XF909-7E1s~.html
+2019-09-05 22:27:38,993 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:28:12,078 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第29个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/cfd2cb577265e3ce03F90960FlE~.html
+2019-09-05 22:28:12,141 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:28:50,294 [MainThread] [web_actions.py:search:265] INFO 获取第9页中第30个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c635a90bb5716f8a1HV92d-8FVY~.html
+2019-09-05 22:28:50,403 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:28:52,362 [MainThread] [web_actions.py:search:277] INFO 已获取9页数据, 累计270条
+2019-09-05 22:29:31,703 [MainThread] [web_actions.py:search:284] INFO 回到工作列表页面：https://www.zhipin.com/c100010000/?query=java&page=9&ka=page-next
+2019-09-05 22:29:31,703 [MainThread] [web_actions.py:browse_page:111] INFO browse_page start.
+2019-09-05 22:29:32,946 [MainThread] [web_actions.py:browse_page:132] INFO browse_page end.
+2019-09-05 22:30:14,907 [MainThread] [web_actions.py:search:297] INFO 翻到第10页, url=https://www.zhipin.com/c100010000/?query=java&page=10&ka=page-next
+2019-09-05 22:30:14,907 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第10页
+2019-09-05 22:30:49,016 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/792f9ee3501cc6151HF42NW-Els~.html
+2019-09-05 22:30:49,065 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:31:21,081 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第2个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e7ceef4d1a2a666b1HN72d68FFA~.html
+2019-09-05 22:31:21,132 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:32:02,183 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/d0d69002981f94d91XF83Nm9FlU~.html
+2019-09-05 22:32:02,235 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:32:34,404 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第4个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/29750342f26d81241XR809W0EVc~.html
+2019-09-05 22:32:34,432 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:33:12,108 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/5a86130ed0a150661XZ93d6_Elo~.html
+2019-09-05 22:33:12,160 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:34:12,962 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/2b5ce6868ec749351XR829m7FFU~.html
+2019-09-05 22:34:13,023 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:34:42,811 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第7个工作职位详情,　职位标题：Java Engineer, 详情面URL=https://www.zhipin.com/job_detail/dd54ed83abdf4b261XZ63t60FFI~.html
+2019-09-05 22:34:42,868 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:35:14,842 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第8个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9817172ae08b52101Hx62N-_GFs~.html
+2019-09-05 22:35:14,912 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:36:16,096 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第9个工作职位详情,　职位标题：java实习, 详情面URL=https://www.zhipin.com/job_detail/fa967ef08ff3ff8d1XR429i9EVc~.html
+2019-09-05 22:36:16,159 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:36:54,412 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/4067d458a47530991XB53928EFQ~.html
+2019-09-05 22:36:54,467 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:37:29,436 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第11个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ba107023a6da31401nN_0tu6F1s~.html
+2019-09-05 22:37:29,463 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:38:03,390 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第12个工作职位详情,　职位标题：java开发, 详情面URL=https://www.zhipin.com/job_detail/d7513885079a5b8703J539y8EFI~.html
+2019-09-05 22:38:03,419 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:38:36,427 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/36f792ccc89f51a003J-09S4GVY~.html
+2019-09-05 22:38:36,484 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:39:29,960 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第14个工作职位详情,　职位标题：高级JAVA工程师, 详情面URL=https://www.zhipin.com/job_detail/d779ca041094a71603V53dy-GFE~.html
+2019-09-05 22:39:30,023 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:40:03,534 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第15个工作职位详情,　职位标题：Java开发, 详情面URL=https://www.zhipin.com/job_detail/ca2f9d38a992072003Bz29S_F1M~.html
+2019-09-05 22:40:03,588 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:40:47,194 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第16个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/43830b193ba72bc61nJy29S7GQ~~.html
+2019-09-05 22:40:47,316 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:41:29,269 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/3f58d120bd4ce63a1XN52tm4GVs~.html
+2019-09-05 22:41:29,330 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:42:00,036 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第18个工作职位详情,　职位标题：Java开发, 详情面URL=https://www.zhipin.com/job_detail/34a1c6ffcf9622241HJ939q4E1I~.html
+2019-09-05 22:42:00,101 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:42:33,206 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第19个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/66d3cadccdb58411031z2dq9FFE~.html
+2019-09-05 22:42:33,284 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:43:15,765 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a37aa5586751460e1nN43N61FlQ~.html
+2019-09-05 22:43:15,820 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:43:59,278 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c42928779fe5ba3a1nJz39S5E1s~.html
+2019-09-05 22:43:59,441 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:44:31,683 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e76cdbb3ce9937311Hd92Ni8E1U~.html
+2019-09-05 22:44:31,749 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:45:05,657 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7bad62006c4e95141nF-3Nm5E1E~.html
+2019-09-05 22:45:05,686 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:45:44,735 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a5c3068a8897277703R_2Ny-E1Y~.html
+2019-09-05 22:45:44,792 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:46:19,610 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第25个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ee3096440ea4f0ed03Fz2tS7E1Y~.html
+2019-09-05 22:46:19,669 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:46:57,194 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第26个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1aff78799b1a43961X173ty6ElM~.html
+2019-09-05 22:46:57,268 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:47:27,491 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第27个工作职位详情,　职位标题：Java backend, 详情面URL=https://www.zhipin.com/job_detail/059eceb9692bffb11n1z2NW8FlQ~.html
+2019-09-05 22:47:27,552 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:48:03,294 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第28个工作职位详情,　职位标题：高级JAVA, 详情面URL=https://www.zhipin.com/job_detail/97f63dbfe55b18de03F83dS5F1s~.html
+2019-09-05 22:48:03,327 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:48:36,545 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第29个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/163bb2dfeca3622f1nx52Ni0FlQ~.html
+2019-09-05 22:48:36,611 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:49:17,284 [MainThread] [web_actions.py:search:265] INFO 获取第10页中第30个工作职位详情,　职位标题：Java高级工程师, 详情面URL=https://www.zhipin.com/job_detail/837e907916f4a3121HN63N--GFU~.html
+2019-09-05 22:49:17,320 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:49:18,840 [MainThread] [web_actions.py:search:277] INFO 已获取10页数据, 累计300条
+2019-09-05 22:49:18,935 [MainThread] [main.py:run_task:107] INFO 导出数据完成, 文件名：全国_java_20190905191500.csv, 导出数据300条
+2019-09-05 22:49:18,935 [MainThread] [main.py:run_task:111] INFO -----------完成从BOSS直聘抓取：全国有关java的职位, 取前10页, 共计数据300条, 耗时:214.31分钟
+2019-09-05 22:49:19,937 [MainThread] [__init__.py:run:465] INFO Running job Every 1 week at 20:35:00 do run_task('java', 1, 10) (last run: [never], next run: 2019-09-05 20:35:00)
+2019-09-05 22:49:19,938 [MainThread] [main.py:run_task:101] INFO -----------开始从BOSS直聘抓取：北京有关java的职位, 取前10页！
+2019-09-05 22:49:19,938 [MainThread] [web_actions.py:__init__:234] INFO BossActions init, account_info={}, device=Nexus 10, user_agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.96 Safari/537.36, headless=True, start_url=https://www.zhipin.com/job_detail/?query=java&city=101010100&industry=&position=
+2019-09-05 22:50:03,719 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第1页
+2019-09-05 22:50:36,629 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/1f1fe4b15dd668521HV409m0GVY~.html
+2019-09-05 22:50:36,666 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:51:09,728 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第2个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/7377e7567994ef5e1X142d6_F1s~.html
+2019-09-05 22:51:09,779 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:51:49,278 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第3个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/ab10d303776b5ac01HV53dS1GVA~.html
+2019-09-05 22:51:49,313 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:52:25,224 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第4个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/f0fed6d645115e091XZ539i9GFc~.html
+2019-09-05 22:52:25,286 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:52:57,024 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f0774de5c3ea0a2d03B93NS8E1I~.html
+2019-09-05 22:52:57,077 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:53:30,796 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第6个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e8707d1ec5c27c1d1HF82ti1ElI~.html
+2019-09-05 22:53:30,850 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:54:10,160 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第7个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/f4b7d08a6179757203d439W7EVI~.html
+2019-09-05 22:54:10,201 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:54:45,085 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第8个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/f41c9f77420f69571Xx9396_E1M~.html
+2019-09-05 22:54:45,143 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:55:22,728 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fb2aa9dd6dbf6a481HFy3du-FFE~.html
+2019-09-05 22:55:22,784 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:56:06,717 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/19f714b4b7062f7e1n152t64EFQ~.html
+2019-09-05 22:56:06,779 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:56:46,587 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第11个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0b8a58e93a6df4c9031_2du-FA~~.html
+2019-09-05 22:56:46,647 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:57:17,482 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第12个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/cab2de9dc5b461e603F93du7GFY~.html
+2019-09-05 22:57:17,509 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:57:58,156 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/95250824ac22162f03By39u4FVY~.html
+2019-09-05 22:57:58,220 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:58:39,027 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/be7e4f85bdbf0c251XRy2t67GFE~.html
+2019-09-05 22:58:39,093 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:59:13,765 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第15个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/aab7a7925f9580101n160969EVU~.html
+2019-09-05 22:59:13,821 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 22:59:46,538 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第16个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/26f491d28f52210a1HF90ti4FFM~.html
+2019-09-05 22:59:46,582 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:00:21,602 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/8dd53e847bfc50901XR839m6ElM~.html
+2019-09-05 23:00:21,665 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:00:58,113 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第18个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/aa2cb1af9a29cfd11XB839W1GVU~.html
+2019-09-05 23:00:58,173 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:01:39,335 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第19个工作职位详情,　职位标题：java开发, 详情面URL=https://www.zhipin.com/job_detail/d5cdefa1b92b9c081Hx83dy9FFE~.html
+2019-09-05 23:01:39,362 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:02:15,689 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/db752a6e59a516891Xd50ti6ElE~.html
+2019-09-05 23:02:15,717 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:02:53,345 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0a20d0118c592d961HV529-_GFo~.html
+2019-09-05 23:02:53,375 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:03:31,607 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第22个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/67b8c8361781c59c1XJ429i7F1M~.html
+2019-09-05 23:03:31,660 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:04:03,315 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/a17040b7978b689b1HR80ty6FFs~.html
+2019-09-05 23:04:03,418 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:09:04,873 [MainThread] [web_actions.py:search:272] ERROR 遍历获取详情页数据时异常, 跳过该详情页解析! url=https://www.zhipin.com/job_detail/ad3c3963eb774d871HB709W0EFo~.html, e=Message: timeout
+  (Session info: chrome=76.0.3809.132)
+Traceback (most recent call last):
+  File "/home/charles/Code/PythonUp/Crawl/Boss/web_actions.py", line 263, in search
+    self.driver.get(detail_url)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=76.0.3809.132)
+
+2019-09-05 23:14:13,682 [MainThread] [web_actions.py:search:272] ERROR 遍历获取详情页数据时异常, 跳过该详情页解析! url=https://www.zhipin.com/job_detail/8bdf5e76c49f5cfb03J-2di-GVU~.html, e=Message: timeout
+  (Session info: chrome=76.0.3809.132)
+Traceback (most recent call last):
+  File "/home/charles/Code/PythonUp/Crawl/Boss/web_actions.py", line 263, in search
+    self.driver.get(detail_url)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=76.0.3809.132)
+
+2019-09-05 23:19:20,149 [MainThread] [web_actions.py:search:272] ERROR 遍历获取详情页数据时异常, 跳过该详情页解析! url=https://www.zhipin.com/job_detail/5838d0d2c8323b9703V_3ti7F1M~.html, e=Message: timeout
+  (Session info: chrome=76.0.3809.132)
+Traceback (most recent call last):
+  File "/home/charles/Code/PythonUp/Crawl/Boss/web_actions.py", line 263, in search
+    self.driver.get(detail_url)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=76.0.3809.132)
+
+2019-09-05 23:24:31,984 [MainThread] [web_actions.py:search:272] ERROR 遍历获取详情页数据时异常, 跳过该详情页解析! url=https://www.zhipin.com/job_detail/f5ca2c6a65d658c503J739W5FFc~.html, e=Message: timeout
+  (Session info: chrome=76.0.3809.132)
+Traceback (most recent call last):
+  File "/home/charles/Code/PythonUp/Crawl/Boss/web_actions.py", line 263, in search
+    self.driver.get(detail_url)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=76.0.3809.132)
+
+2019-09-05 23:29:44,608 [MainThread] [web_actions.py:search:272] ERROR 遍历获取详情页数据时异常, 跳过该详情页解析! url=https://www.zhipin.com/job_detail/9c71d94463a2a54f03Jy2Ny1FFo~.html, e=Message: timeout
+  (Session info: chrome=76.0.3809.132)
+Traceback (most recent call last):
+  File "/home/charles/Code/PythonUp/Crawl/Boss/web_actions.py", line 263, in search
+    self.driver.get(detail_url)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=76.0.3809.132)
+
+2019-09-05 23:34:57,967 [MainThread] [web_actions.py:search:272] ERROR 遍历获取详情页数据时异常, 跳过该详情页解析! url=https://www.zhipin.com/job_detail/f234dd83cebbdb791n160t6_E1I~.html, e=Message: timeout
+  (Session info: chrome=76.0.3809.132)
+Traceback (most recent call last):
+  File "/home/charles/Code/PythonUp/Crawl/Boss/web_actions.py", line 263, in search
+    self.driver.get(detail_url)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=76.0.3809.132)
+
+2019-09-05 23:40:06,268 [MainThread] [web_actions.py:search:272] ERROR 遍历获取详情页数据时异常, 跳过该详情页解析! url=https://www.zhipin.com/job_detail/2993758d5f49e30303R829-8Fls~.html, e=Message: timeout
+  (Session info: chrome=76.0.3809.132)
+Traceback (most recent call last):
+  File "/home/charles/Code/PythonUp/Crawl/Boss/web_actions.py", line 263, in search
+    self.driver.get(detail_url)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=76.0.3809.132)
+
+2019-09-05 23:40:12,039 [MainThread] [web_actions.py:search:277] INFO 已获取1页数据, 累计30条
+2019-09-05 23:45:12,045 [MainThread] [web_actions.py:search:299] ERROR 获取数据异常：Message: timeout
+  (Session info: chrome=76.0.3809.132)
+Traceback (most recent call last):
+  File "/home/charles/Code/PythonUp/Crawl/Boss/web_actions.py", line 282, in search
+    self.driver.get(list_page_url)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/charles/.local/share/virtualenvs/PythonUp-Q8NBmG-2/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=76.0.3809.132)
+
+2019-09-05 23:45:12,063 [MainThread] [main.py:run_task:107] INFO 导出数据完成, 文件名：北京_java_20190905224919.csv, 导出数据30条
+2019-09-05 23:45:12,064 [MainThread] [main.py:run_task:111] INFO -----------完成从BOSS直聘抓取：北京有关java的职位, 取前10页, 共计数据30条, 耗时:55.87分钟
+2019-09-05 23:45:12,064 [MainThread] [__init__.py:run:465] INFO Running job Every 1 week at 22:25:00 do run_task('java', 2, 10) (last run: [never], next run: 2019-09-05 22:25:00)
+2019-09-05 23:45:12,064 [MainThread] [main.py:run_task:101] INFO -----------开始从BOSS直聘抓取：上海有关java的职位, 取前10页！
+2019-09-05 23:45:12,065 [MainThread] [web_actions.py:__init__:234] INFO BossActions init, account_info={}, device=Nexus 10, user_agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.96 Safari/537.36, headless=True, start_url=https://www.zhipin.com/job_detail/?query=java&city=101020100&industry=&position=
+2019-09-05 23:45:19,089 [MainThread] [web_actions.py:search:252] INFO --------开始抓取第1页
+2019-09-05 23:45:29,390 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第1个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/79f98182575aaed403N73d60EVQ~.html
+2019-09-05 23:45:29,448 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:46:18,206 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第2个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/4b1ca2a6fa90ab521nVz2t21FFE~.html
+2019-09-05 23:46:18,330 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:46:29,972 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第3个工作职位详情,　职位标题：Java engineer, 详情面URL=https://www.zhipin.com/job_detail/9e8856fa388c85061XR_09S1Flo~.html
+2019-09-05 23:46:30,033 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:46:43,559 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第4个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/608a61408c15699b03Zz2N27F1Y~.html
+2019-09-05 23:46:43,624 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:46:54,128 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第5个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/f4cdffbf6fcda5381XBz2ty8FFA~.html
+2019-09-05 23:46:54,185 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:47:04,837 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第6个工作职位详情,　职位标题：Java developer, 详情面URL=https://www.zhipin.com/job_detail/d1147c73e97eb4dd1HZ929-1FVA~.html
+2019-09-05 23:47:04,894 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:47:14,985 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第7个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/7a65427404c95d201nV92tu7E1s~.html
+2019-09-05 23:47:15,040 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:47:27,326 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第8个工作职位详情,　职位标题：对日Java, 详情面URL=https://www.zhipin.com/job_detail/4106197191670d2603B_3tu4FFM~.html
+2019-09-05 23:47:27,354 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:47:38,392 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第9个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/0e356cdf183e792503R80ti4FVM~.html
+2019-09-05 23:47:38,434 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:47:49,635 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第10个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/fa0ab0cd6073213f1XNz3d-6FlM~.html
+2019-09-05 23:47:49,688 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:48:37,909 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第11个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/898bb1cffc6ccbe91n1z3969FVU~.html
+2019-09-05 23:48:37,971 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:49:05,574 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第12个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/8be70087fe31e4a91Xxy29-6EFE~.html
+2019-09-05 23:49:05,628 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:49:42,074 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第13个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/9891b6a13b3007941H1z3Nm8E1s~.html
+2019-09-05 23:49:42,129 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:50:15,740 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第14个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/e79aaaee2946463f03J-0tm4FFo~.html
+2019-09-05 23:50:15,767 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:50:50,528 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第15个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/572d1cb58376fe571n1z2dm8E1A~.html
+2019-09-05 23:50:50,593 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:51:36,489 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第16个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/44d7f4d08d4642a91nd43N2-E1U~.html
+2019-09-05 23:51:36,542 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:52:19,131 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第17个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/959b57dac60f15d11XBz2ty8EFU~.html
+2019-09-05 23:52:19,191 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:52:56,399 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第18个工作职位详情,　职位标题：JAVA, 详情面URL=https://www.zhipin.com/job_detail/6338b23b54324c961nx_3ty0EFQ~.html
+2019-09-05 23:52:56,455 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:53:32,100 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第19个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/14c4b84aad14bdf91HF-3dq5ElY~.html
+2019-09-05 23:53:32,158 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:54:10,975 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第20个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/d9abae917089e6ae03Ry2tW5E1A~.html
+2019-09-05 23:54:11,041 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:54:53,681 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第21个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/cb35d7581cc8b36a1HV90tu_FFA~.html
+2019-09-05 23:54:53,717 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:55:30,788 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第22个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/fb4b7ce86ad2079203V63dS-FlA~.html
+2019-09-05 23:55:30,850 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:56:10,998 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第23个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/704c56e4d9e3e1081nV82tq-E1A~.html
+2019-09-05 23:56:11,065 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:56:45,121 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第24个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c061904dba4c0f2f03B829S-FFc~.html
+2019-09-05 23:56:45,177 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:57:23,862 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第25个工作职位详情,　职位标题：java, 详情面URL=https://www.zhipin.com/job_detail/6749df52c9bdaf8f1XF_2du9ElA~.html
+2019-09-05 23:57:23,924 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
+2019-09-05 23:58:50,483 [MainThread] [web_actions.py:search:265] INFO 获取第1页中第26个工作职位详情,　职位标题：Java, 详情面URL=https://www.zhipin.com/job_detail/c3b2d6bd7d9612ab03Jy2929GFU~.html
+2019-09-05 23:58:50,544 [MainThread] [parse.py:parse_detail_page_by_html:109] INFO parse_detail_page_by_html
