@@ -12,7 +12,8 @@ from wordcloud import WordCloud
 # f = open(u'txt/AliceEN.txt','r').read()
 
 import os
-os.environ['FONT_PATH'] = '/home/charles/Code/PythonUp/Crawl/Boss/HYQiHei-25J.ttf'
+
+os.environ['FONT_PATH'] = '/home/charles/Code/PythonUp/Crawl/Boss/res/HYQiHei-25J.ttf'
 
 #显示所有列
 pd.set_option('display.max_columns', None)
